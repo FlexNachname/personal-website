@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
-    <h1 id="h1">Meine erste Webseite</h1>
+    <nav>
+      <ul>
+        <li><a href="about-me" target="_blank">Über mich</a></li>
+        <li><a href="contact" target="_blank">Kontakt</a></li>
+        <li><a href="skills" target="_blank">Skills</a></li>
+      </ul>
+    </nav>
+    <h1>Meine erste Webseite</h1>
     <div>
-      <h3>Hobbys undso zeugs</h3>
+      <h2>Hobbys undso zeugs</h2>
       <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -36,17 +47,65 @@
         ipsum dolor sit amet.
       </p>
     </div>
+    <h2>Dropdown</h2>
+    <p>Hilf der Maus den Käse zu erreichen!</p>
+
+    <div class="dropdown">
+      <span> 🪤 ......................🐁</span>
+      <div class="dropdown-content">
+        <p>hmmmm Käääääääääse 🧀</p>
+      </div>
+    </div>
     <div>
-      <img
-        src="Flex_beim_Bogenschießen.jpg"
-        alt="Bogenschießen"
-        width="500"
-        height="600"
-      />
+      <h2>Bogenschießen</h2>
       <p>
         Hier sehen Sie mich beim Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod tempor
+        sadipscing elitr, sed diam nonumy eirmod tempor.
       </p>
+      <a href="https://example.com" target="_blank">
+        <img
+          id="img1-bogenschießen"
+          src="assets/bogenschießen.jpg"
+          alt="Bogenschießen"
+          width="300"
+        />
+      </a>
     </div>
+    <div id="video">
+      <span id="videotext"> Hier noch ein bisschen Mukke. Gönnt euch</span>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dCESufY8hMc?si=4PaEyHjteukwOKWT"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <footer>
+      <div id="footer">
+        <p>
+          &copy; 2025 - Webseite von Flex Nachname. Alle Rechte vorbehalten.
+        </p>
+        <a href="discord_einladung">
+          <i class="fa-brands fa-discord"></i> <span id="links"> Discord </span>
+        </a>
+        |
+        <a href="https://www.google.com" target="_blank">
+          <i class="fa-brands fa-google"></i> <span id="links"> Google </span>
+        </a>
+        |
+        <a href="https://www.youtube.com" target="_blank">
+          <i class="fa-brands fa-youtube"></i> <span id="links"> YouTube </span>
+        </a>
+        |
+        <a href="https://www.apple.com" target="_blank">
+          <i class="fa-brands fa-apple"></i> <span id="links"> Apple </span>
+        </a>
+        <p><a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+      </div>
+    </footer>
   </body>
 </html>
