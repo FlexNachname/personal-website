@@ -1,110 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine Webseite</title>
     <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <title>Document</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="about-me" target="_blank">Über mich</a></li>
-        <li><a href="contact" target="_blank">Kontakt</a></li>
-        <li><a href="skills" target="_blank">Skills</a></li>
+        <li><a href="#about-me">Über mich</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
     </nav>
+
     <h1>Meine erste Webseite</h1>
-    <div>
-      <h2>Hobbys undso zeugs</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
-      </p>
+    <div class="sectiondiv">
+      <section>
+        <h2>Hobbys und so</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </section>
+
+      <section>
+        <h3>Anderes Zeug</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </section>
     </div>
-    <div>
-      <h3>Halt anderes Zeug was man zeigen kann</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
-      </p>
-    </div>
+
     <h2>Dropdown</h2>
-    <p>Hilf der Maus den Käse zu erreichen!</p>
+    <p class="dropdowntext">Hilf der Maus den Käse zu erreichen!</p>
 
     <div class="dropdown">
-      <span> 🪤 ......................🐁</span>
+      <button class="dropbtn">🪤 ......................🐁</button>
       <div class="dropdown-content">
-        <p>hmmmm Käääääääääse 🧀</p>
+        <p class="dropdowntext">Hmmmm Käääääääääse 🧀</p>
       </div>
     </div>
-    <div>
+
+    <div class="imgdiv">
       <h2>Bogenschießen</h2>
-      <p>
-        Hier sehen Sie mich beim Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod tempor.
-      </p>
-      <a href="https://example.com" target="_blank">
-        <img
-          id="img1-bogenschießen"
-          src="assets/bogenschießen.jpg"
-          alt="Bogenschießen"
-          width="300"
-        />
-      </a>
+      <p class="boxenschießentext">Hier sehen Sie mich beim Bogenschießen.</p>
+      <img
+        id="img1-bogenschießen"
+        src="assets/bogenschießen.jpg"
+        alt="Bogenschießen"
+      />
     </div>
+
     <div id="video">
       <span id="videotext"> Hier noch ein bisschen Mukke. Gönnt euch</span>
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/dCESufY8hMc?si=4PaEyHjteukwOKWT"
+        src="https://www.youtube.com/embed/dCESufY8hMc"
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; 
+      encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      >
+      </iframe>
     </div>
+
     <footer>
       <div id="footer">
-        <p>
-          &copy; 2025 - Webseite von Flex Nachname. Alle Rechte vorbehalten.
-        </p>
-        <a href="discord_einladung">
-          <i class="fa-brands fa-discord"></i> <span id="links"> Discord </span>
-        </a>
+        <a href="#"><i class="fa-brands fa-discord"></i> Discord </a> |
+        <a href="https://www.google.com" target="_blank"
+          ><i class="fa-brands fa-google"></i> Google</a
+        >
         |
-        <a href="https://www.google.com" target="_blank">
-          <i class="fa-brands fa-google"></i> <span id="links"> Google </span>
-        </a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="fa-brands fa-youtube"></i> YouTube</a
+        >
         |
-        <a href="https://www.youtube.com" target="_blank">
-          <i class="fa-brands fa-youtube"></i> <span id="links"> YouTube </span>
-        </a>
-        |
-        <a href="https://www.apple.com" target="_blank">
-          <i class="fa-brands fa-apple"></i> <span id="links"> Apple </span>
-        </a>
+        <a href="https://www.apple.com" target="_blank"
+          ><i class="fa-brands fa-apple"></i> Apple</a
+        >
         <p><a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+        <p>
+          &copy; 2025 - Webseite von Flex Nachname. <br />
+          Alle Rechte vorbehalten.
+        </p>
       </div>
     </footer>
   </body>
